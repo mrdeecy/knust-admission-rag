@@ -1,0 +1,13 @@
+openai
+python-dotenv
+rank_bm25
+pinecone
+langchain-text-splitters 
+langchain-core
+pypdf 
+pymupdf 
+langchain-community
+langchain-openai
+ragas
+ipywidgets
+tiktoken

@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is the cut-off aggregate for BSc. Computer Science?",
+    "ground_truth": "The cut-off aggregate for BSc. Computer Science was 07."
+  },
+  {
+    "question": "What are the WASSCE entry requirements for BSc. Computer Science?",
+    "ground_truth": "Core Subjects: credit passes in English Language, Mathematics, and Integrated Science. Elective Subjects: credit passes in Elective Mathematics, Physics, and either Chemistry or Applied Electricity or Electronics."
+  },
+  {
+    "question": "Is there a discount for Ghanaian applicants, or do international applicants pay extra?",
+    "ground_truth": "The document does not mention a discount for Ghanaian applicants. Instead, all international applicants are expected to pay a non-refundable application processing fee of US$100.00 to the University, which Ghanaian applicants do not pay."
+  },
+  {
+    "question": "How can a Ghanaian applicant purchase the admission e-voucher?",
+    "ground_truth": "Ghanaian applicants can purchase a voucher via the KNUST Admission Application Portal using Mastercard, Visa, or Mobile Money; by dialing *415*55# on a mobile device and following the Mobile Money prompts; or by purchasing a voucher from a Regional or other designated office of Ghana Post Company Limited."
+  },
+  {
+    "question": "I'm a mature applicant with no technical background — what are the general age and qualification requirements to apply?",
+    "ground_truth": "Mature applicants generally must have attained at least 25 years of age at the time of application and must satisfy the general requirements for the specific programme, typically equivalent to WASSCE/SSSCE or GCE 'O' and 'A' Level qualifications, with exact subject requirements varying by programme. Some programmes also require post-qualification working experience and a short-listing interview or entrance examination."
+  },
+  {
+    "question": "How does BSc. Computer Engineering differ from BSc. Computer Science in terms of WASSCE subject requirements?",
+    "ground_truth": "BSc. Computer Engineering requires credit passes in Physics, Elective Mathematics and Chemistry, with Basic/Applied Electricity, Basic Electronics, ICT, Computing, Computer Science, Electrical and Electronic Engineering Technology, Engineering, or Robotic Engineering acceptable in place of Chemistry. BSc. Computer Science requires credit passes in Elective Mathematics, Physics, and either Chemistry, Applied Electricity, or Electronics."
+  },
+  {
+    "question": "Can a registered general nurse with a diploma apply for a nursing top-up at KNUST?",
+    "ground_truth": "Yes. Registered General Nurses with a Diploma in Nursing who are at least 25 years old with a minimum of two years' working experience in a clinical area may apply for the BSc. Nursing (Emergency Option for Practicing Nurses), subject to satisfying the University's General Requirements and passing an interview."
+  },
+  {
+    "question": "How can I contact KNUST for admissions questions, particularly about transferring from another university?",
+    "ground_truth": "Applicants seeking to transfer and continue their programme should submit an official transcript, high school results, and a cover letter through the Deputy Registrar, Academic Affairs (admissions@knust.edu.gh), or the International Programmes Office (ipo@knust.edu.gh), addressed to the Head of Department."
+  },
+  {
+    "question": "What is the cut-off aggregate for BSc. Architecture, and what elective subjects are required?",
+    "ground_truth": "The cut-off aggregate for BSc. Architecture was 07. WASSCE/SSSCE applicants need credit passes in English Language, Mathematics, and Integrated Science as core subjects, plus at least a credit pass in Elective Mathematics and any two subjects from Technical (Technical Drawing or Engineering Science, Woodwork or Metalwork, Building Construction), General Science (Chemistry, Physics, Biology), Visual Art (General Knowledge in Art, Graphic Design, Picture Making), or General Arts (Economics, Geography)."
+  },
+  {
+    "question": "What subjects are needed for BSc. Human Biology (Medicine) and what additional steps do applicants need to take?",
+    "ground_truth": "WASSCE/SSSCE applicants need credit passes in English Language, Mathematics, and Integrated Science as core subjects, plus credit passes in Biology, Chemistry, and Physics or Mathematics as electives. Short-listed applicants for Human Biology (Medicine) must also pass an Entrance Examination and Interview."
+  },
+  {
+    "question": "What is the cut-off aggregate for BSc. Nursing, and is it different at the Obuasi Campus?",
+    "ground_truth": "The cut-off aggregate for BSc. Nursing was 07, while BSc. Nursing (Obuasi Campus) had a cut-off aggregate of 12."
+  },
+  {
+    "question": "How is the WASSCE Cut-off Aggregate calculated?",
+    "ground_truth": "The Cut-off Aggregate is calculated by summing numeric values assigned to grades in the six qualifying subjects, where WASSCE grade A1 (or SSSCE A) equals 1, B2 (or SSSCE B) equals 2, B3 (or SSSCE C) equals 3, and C4, C5, or C6 (or SSSCE D) each equal 4. It is not predetermined and may vary year to year based on the pass rate and available space or resources for a programme."
+  }
+]
