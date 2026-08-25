@@ -1,18 +1,12 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "main.py",
+      "src": "./rag_deploy/main.py",
       "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "250mb"
-      }
+      "config": { "includeFiles": "./rag_deploy/retrieval_pipeline.py" }
     }
   ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "./rag_deploy/main.py"
-    }
+  "routes": [
+    { "src": "/(.*)", "dest": "./rag_deploy/main.py" }
   ]
 }
