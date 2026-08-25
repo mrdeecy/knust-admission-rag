@@ -9,10 +9,10 @@
       }
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "./rag_deploy/main.py"
+      "source": "/(.*)",
+      "destination": "./rag_deploy/main.py"
     }
   ]
 }
