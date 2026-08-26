@@ -48,3 +48,6 @@ llm-alt = [
 
 [tool.uv]
 link-mode = "copy"
+
+[tool.vercel]
+entrypoint = "rag_deploy.main:app"
