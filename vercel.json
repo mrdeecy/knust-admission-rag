@@ -1,7 +1,4 @@
 {
-  "buildCommand": "pip install -r requirements.txt",
-  "devCommand": "uvicorn rag_deploy.main:app --reload",
-  "installCommand": "pip install -r requirements.txt",
   "framework": "fastapi",
   "functions": {
     "rag_deploy/main.py": {
