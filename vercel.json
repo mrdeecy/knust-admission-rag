@@ -1,12 +1,12 @@
 {
-  "builds": [
-    {
-      "src": "./rag_deploy/main.py",
-      "use": "@vercel/python",
-      "config": { "includeFiles": "./rag_deploy/retrieval_pipeline.py" }
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "uvicorn rag_deploy.main:app --reload",
+  "installCommand": "pip install -r requirements.txt",
+  "framework": "fastapi",
+  "functions": {
+    "rag_deploy/main.py": {
+      "runtime": "python3.11",
+      "maxDuration": 30
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "./rag_deploy/main.py" }
-  ]
+  }
 }
