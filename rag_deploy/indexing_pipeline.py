@@ -8,9 +8,13 @@ import tiktoken
 from dotenv import load_dotenv
 from openai import OpenAI
 from pinecone import Pinecone, ServerlessSpec, CloudProvider, AwsRegion
-from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+try:
+    from langchain_community.document_loaders import PyMuPDFLoader
+except ImportError:
+    PyMuPDFLoader = None
 
 # Keep using the common loader while muting only this known sunset warning
 warnings.filterwarnings(
@@ -249,6 +253,12 @@ def main():
     """
     Main execution pipeline. Runs only if the script is executed directly.
     """
+    if PyMuPDFLoader is None:
+        raise RuntimeError(
+            "PyMuPDFLoader not available. Install indexing dependencies: "
+            "pip install -e '.[indexing]'"
+        )
+    
     # 1. Load PDF
     print("Loading PDF...")
     loader = PyMuPDFLoader(PDF_PATH)
