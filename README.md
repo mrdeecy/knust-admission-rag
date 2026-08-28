@@ -1,4 +1,4 @@
-# KNUST Admissions Assistant
+# KNUST Admission GPT
 
 A production-ready Retrieval-Augmented Generation (RAG) system that answers questions about **Kwame Nkrumah University of Science and Technology (KNUST)** undergraduate admissions — entry requirements, programmes, cut-off aggregates, application steps, and fees.
 
