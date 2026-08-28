@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAIError
 from pinecone.exceptions import PineconeApiException
 from pydantic import BaseModel, Field
-import retrieval_pipeline as rag
+from . import retrieval_pipeline as rag
 
 logger = logging.getLogger("KNUST_ADMISSIONS_api")
 app = FastAPI(title="KNUST Admissions Assistant API", version="1.0.0")
